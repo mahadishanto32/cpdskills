@@ -2005,8 +2005,28 @@ section,
 }
 
 
-.header .btn-language,
-.header .btn-language:focus {
+.header .btn-language-en,
+.header .btn-language-en:focus {
+  color: lightcyan;
+  background: #020024;
+  background: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 40%, rgba(0, 212, 255, 1) 100%);
+  font-size: 16px;
+  font-weight: 900;
+  padding: 8px 25px;
+  margin: 0 0 0 30px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.header .btn-language-en:hover,
+.header .btn-language-en:focus:hover {
+  color: var(--contrast-color);
+  background: #ff0000;
+  background: radial-gradient(circle,rgba(255, 0, 0, 1) 0%, rgba(29, 253, 66, 1) 65%, rgba(252, 176, 69, 1) 100%);
+}
+
+.header .btn-language-bn,
+.header .btn-language-bn:focus {
   color: lightcyan;
   background: #ff0000;
   background: radial-gradient(circle,rgba(255, 0, 0, 1) 0%, rgba(29, 253, 66, 1) 65%, rgba(252, 176, 69, 1) 100%);
@@ -2018,8 +2038,9 @@ section,
   transition: 0.3s;
 }
 
-.header .btn-language:hover,
-.header .btn-language:focus:hover {
+.header .btn-language-bn:hover,
+.header .btn-language-bn:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: #020024;
+  background: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 40%, rgba(0, 212, 255, 1) 100%);
 }
