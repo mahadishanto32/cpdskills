@@ -2008,8 +2008,7 @@ section,
 .header .btn-language-en,
 .header .btn-language-en:focus {
   color: lightcyan;
-  background: #020024;
-  background: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 40%, rgba(0, 212, 255, 1) 100%);
+  background: var(--accent-color);
   font-size: 16px;
   font-weight: 900;
   padding: 8px 25px;
@@ -2021,15 +2020,13 @@ section,
 .header .btn-language-en:hover,
 .header .btn-language-en:focus:hover {
   color: var(--contrast-color);
-  background: #ff0000;
-  background: radial-gradient(circle,rgba(255, 0, 0, 1) 0%, rgba(29, 253, 66, 1) 65%, rgba(252, 176, 69, 1) 100%);
+  background: var(--accent-color);
 }
 
 .header .btn-language-bn,
 .header .btn-language-bn:focus {
   color: lightcyan;
-  background: #ff0000;
-  background: radial-gradient(circle,rgba(255, 0, 0, 1) 0%, rgba(29, 253, 66, 1) 65%, rgba(252, 176, 69, 1) 100%);
+  background: var(--accent-color);
   font-size: 16px;
   font-weight: 900;
   padding: 8px 25px;
@@ -2041,6 +2038,32 @@ section,
 .header .btn-language-bn:hover,
 .header .btn-language-bn:focus:hover {
   color: var(--contrast-color);
-  background: #020024;
-  background: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 40%, rgba(0, 212, 255, 1) 100%);
+  background: var(--accent-color);
+}
+
+@font-face {
+  font-family: 'Bangla'; /* Custom name for the font */
+  src: url('../font/Li\ Shadhinata\ 2.0\ Unicode.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bangla2'; /* Custom name for the font */
+  src: url('../font/Li\ Hasan\ Rongdhonu\ Unicode.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bangla3'; /* Custom name for the font */
+  src: url('../font/Li\ Ador\ Noirrit\ Regular.ttf') format('truetype');
+}
+
+
+.bnfont1 {
+  font-family: 'Bangla', sans-serif;
+}
+
+.bnfont2 {
+  font-family: 'Bangla2', sans-serif;
+}
+
+.bnfont3 {
+  font-family: 'Bangla3', sans-serif;
 }
