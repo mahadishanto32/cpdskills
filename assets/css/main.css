@@ -2049,10 +2049,16 @@ section,
 @font-face {
   font-family: 'Bangla2'; /* Custom name for the font */
   src: url('../font/Li\ Hasan\ Rongdhonu\ Unicode.ttf') format('truetype');
+
 }
 @font-face {
   font-family: 'Bangla3'; /* Custom name for the font */
   src: url('../font/Li\ Ador\ Noirrit\ Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bangla4'; /* Custom name for the font */
+  src: url('../font/HindSiliguri-Bold.ttf') format('truetype');
 }
 
 
@@ -2066,4 +2072,8 @@ section,
 
 .bnfont3 {
   font-family: 'Bangla3', sans-serif;
+}
+
+.bnfont4 {
+  font-family: 'Bangla4', sans-serif;
 }
