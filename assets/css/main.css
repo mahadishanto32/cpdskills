@@ -1821,6 +1821,39 @@ section,
   padding: 1px 0 3px 0;
 }
 
+  .upcoming {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  width: 200px;
+  height: 35px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  font-weight: 600;
+  padding: 1px 0 3px 0;
+}
+
+  .past {
+  background: orange;
+  color: var(--contrast-color);
+  width: 200px;
+  height: 35px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 1px 0 3px 0;
+}
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
@@ -2076,4 +2109,86 @@ section,
 
 .bnfont4 {
   font-family: 'Bangla4', sans-serif;
+}
+
+
+.about-img{
+  border-radius: 20px;
+  transition: transform 0.5s ease;
+  object-fit: cover;
+}
+
+.about-img:hover{
+  transform: scale(1.02); /* Zoom in */
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about-box {
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.8s ease;
+}
+
+.lightgreen {
+  background-color: #5fcf80;
+  color: #fff;
+}
+
+.lightgreen h2{
+  color: #fff;
+}
+
+.lightgreen:hover{
+  transform: scale(1.03);
+}
+
+.yellow {
+  background-color: yellow;
+  color: #333;
+}
+
+.yellow:hover{
+  transform: scale(1.03);
+}
+
+.deepblue {
+  background-color: #003366; /* deep blue */
+  color: #fff;
+}
+
+.deepblue h2{
+  color: #fff;
+}
+
+.deepblue:hover{
+  transform: scale(1.03);
+}
+
+.orange {
+  background-color: orange;
+  color: #222;
+}
+
+.orange:hover{
+  transform: scale(1.03);
+}
+
+.about-box h2 {
+  margin-top: 0;
+}
+
+.icon-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
 }
